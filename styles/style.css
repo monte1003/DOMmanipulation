@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Josefin+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Rubik:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #00a6ff;
+    width: 99vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-family: 'Black Ops One', cursive;
+    margin-bottom: 40px
+}
+.home-card-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: #005490;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    max-width: 50vw;
+}
+.card{
+    background-color: #00cdff;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+p{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.home-buttons{
+    display: flex;
+    width: 99vw;
+    height: 15vh;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.home-buttons button{
+    padding: 10px 15px;
+    border: none;
+    transition: all .6s ease-in-out;
+    background-color: #223361;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 10px;
+}
+.home-buttons button:hover{
+    cursor: pointer;
+    transform: scale(110%);
+}
